@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+    background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) );
+
+   max-width: 100vw;
+   padding: 2%;
+    
+   
+   
+}
+.hom{
+    color: rgb(0, 0, 0);
+    width:83px;
+    height:37px;
+    font-size: medium;
+    font-weight:normal;
+    background-color:white;
+    font-family:auto;
+   padding: 0.6% 1.5%;
+}
+.heading{
+   margin-inline: 5%;
+    display: inline-block;
+   color: white;
+}
+#image{
+    background-image:url(./desktop-wallpaper-construction-site-construction-work.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main_1{
+   height: 500px;
+   width: 100%;
+   /*border: 1px solid black;*/
+}
+.main_1>img{
+    margin: 2%;
+    width:29%;
+    height:90%;
+}
+.main_2{
+    padding: 2%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.sub1{
+    width: 45%;
+    color: white;
+    display:inline-block;
+}
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.sub2{
+    width: 45%;
+    display: inline-block;
+    margin: 1%;
+}
+
+ img {
+       oerflow-clip-margin: content-box;
+         overflow: clip;
+ }
+
+
+
+
